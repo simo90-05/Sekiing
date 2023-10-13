@@ -1,0 +1,217 @@
+*{ 
+    padding: 0; 
+    margin: 0;
+    box-sizing: border-box;
+    font-family: century;
+}
+
+header{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./image/sand-3140730_1280.jpg );
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.logo a{
+    color: black;
+    padding: 0px 20px;
+    border: 1px solid black;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 900;
+    text-shadow: rgba (0, 0, 0, 0.7);
+}
+
+.logo span{
+    color:rgb(238, 56, 11);
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+ul{
+    list-style: none;
+    float: right;
+    display: flex;
+    margin-top: 20px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    margin: 10px;
+    font-weight: 500;
+    transition: 0.6s ease;
+}
+
+ul li a:hover{
+    background: orangered;
+    color: black;
+}
+
+ul li.active a{
+    background: orangered;
+    color: black;
+}
+
+.principale{
+    max-width: 114rem;
+    margin: 0 auto;
+}
+
+.titre{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.titre h1{
+    color: black;
+    font-size: 58px;
+}
+
+.titre h2{
+    color: black;
+    font-size: xx-large;
+}
+
+.bouton{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
+}
+
+.bouton a{
+    background-color: orangered;
+    border: 2px solid;
+    color: black;
+    padding: 15px 55px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 1px 2px;
+    border-radius: 2rem;
+    transform: translate(0px, 90px);
+}
+
+.btn{
+    transition: 0.6s ease;
+}
+
+.btn:hover{
+background-color: black;
+color: white;
+}
+
+.titre2{
+    position: absolute;
+    top: 115%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    margin: 10px 10px;
+}
+
+.titre2 p{
+    margin: 10px 40px;
+}
+
+.titre3 {
+    position: absolute;
+    top: 140%;
+    left: 30%;
+    right: 30%;
+    transform: translate(-50% , -50%);
+    text-align: left;
+
+}
+
+.titre3 P{
+    position: absolute;
+    top: 140%;
+    transform: translate(-20% , -20%);
+    right: -30%;
+    text-align: left;
+    margin: 10px 100px;
+}
+
+.titre4 {
+    position: absolute;
+    top: 140%;
+    left: 50%;
+    right: 10%;
+    transform: translate(0% , -70%);
+    text-align: right;
+}
+
+.titre4 P{
+    position: absolute;
+    top: 140%;
+    transform: translate(10% , -15%);
+    right: -30%;
+    text-align: left;
+    margin: 10px 100px;
+}
+
+
+.titre5 {
+    position: absolute;
+    top: 180%;
+    left: 55%;
+    transform: translate(-50% , -40%);
+    margin: 10px 20px;
+}
+
+.titre5 p{
+    margin: 10px -50px;
+}
+
+
+
+footer{
+    background-color: black;
+}
+.footercontainer{
+    width: 90%;
+    padding: 600px 60px 10px;
+}
+.footernav{
+    margin: 30px 0;
+}
+.footernav ul{
+display: flex;
+justify-content: center;
+}
+.footernav ul li a{
+color: black;
+margin: 20px;
+text-decoration: none;
+font-size: 1.3em;
+opacity: 0.7;
+transition: 0.5s;
+}
+.footernav ul li a:hover{
+    opacity: 1;
+}
+.footerbottom{
+    background-color: rgb(182, 173, 173);
+    padding: 20px;
+    text-align: center;
+}
+.footerbottom P{
+    color: black;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
